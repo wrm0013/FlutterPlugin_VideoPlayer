@@ -15,7 +15,4 @@ void main() {
     channel.setMockMethodCallHandler(null);
   });
 
-  test('getPlatformVersion', () async {
-    expect(await QuickPlayer.platformVersion, '42');
-  });
 }
